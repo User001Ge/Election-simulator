@@ -209,7 +209,7 @@ def main() -> None:
     display_candidate_options = _candidate_options_for_display(MODEL.candidate_options)
 
     st.title("საპატრიარქო არჩევნების სიმულაცია")
-    st.caption("Excel-მოდელის Python/Streamlit რეკონსტრუქცია მაქსიმალურად ახლო ლოგიკით.")
+    st.caption("აპლიკაცია აჩვენებს საპატრიარქო არჩევნების სავარაუდო შედეგებს სამი სხვადასხვა კანდიდატის კონფიგურაციით")
 
     defaults = {
         "candidate_1": default_candidates[0],
