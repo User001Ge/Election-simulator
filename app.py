@@ -349,7 +349,7 @@ def main() -> None:
     single = st.session_state["last_single_run"]
 
     if mc is None or single is None:
-        st.info("აირჩიეთ სამი სავარაუდო კანდიდატი და დააჭირეთ **სიმულაციის გაშვება**.")
+        st.info("აირჩიეთ სამი სავარაუდო კანდიდატი და დააჭირეთ **სიმულაციის გაშვებას**.")
         return
 
     probability_df = _probability_df(mc)
